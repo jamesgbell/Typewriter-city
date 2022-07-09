@@ -1,0 +1,27 @@
+
+.section-1-shop {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(200px, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+div.section-1-shop img {
+    height: 200px;
+    opacity: 80%;
+}
+
+div.section-1-shop img:hover {
+    opacity: 100%;
+}
+
+div.section-1-shop p {
+    text-align: center;
+    position: relative;
+}

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 360px) {
+    * {
+        width: 50vw;
+    }
+}
+
+@font-face {
+    font-family: 'CourierPrime';
+    src: url(/CourierPrime-Regular.ttf);
+}
+
+body {
+    background-color: wheat;
+    font-family: 'CourierPrime';
+}
+
+.topnav {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    background: cadetblue;
+}
+
+.toplogo {
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff379;
+    white-space: nowrap;
+}
+
+.toplogo:hover {
+    color: white;
+}
+
+.topnav ul{
+    display: flex;
+}
+
+.topnav ul li {    
+    list-style-type: none;
+    justify-items: right;
+}
+
+.topnav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.topnav ul li a:hover {
+    color: #fff379;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+div.section1 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(29, 202, 202);
+    background-image: url(/images/typewritersun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.section1 p {
+    position: relative;
+    margin: 25vh;
+    font-size: 29px;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(20) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 665px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+div.section2, div.section3 {
+    display: flex;
+    height: 100vh;
+    color: rgb(104, 104, 104);
+}
+
+div.section2 img, div.section3 img{
+    width: 50vw;
+}
+
+div.section2 p, div.section3 p {
+    display: flex;
+    width: 50vw;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: sticky;
+    padding: 20px;
+    align-content: space-between;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+}
+
+footer li a{
+    color: gold;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: pink;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+}
+
+footer li a img{
+    height: 30px;
+}
+
+footer.right-footer {
+    align-content: center;
+}

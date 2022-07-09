@@ -1,0 +1,50 @@
+
+
+.section-1-about {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    text-align: center;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+
+.section-1-about h1 {
+    position: absolute;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.section-1-about div {
+    margin: auto;
+    padding: 10px;
+    height: 75vh;
+    width: 20vw;
+}
+
+.section-1-about div:hover {
+    border-radius: 20px;
+}
+
+.section-1-about img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 80%;
+}
+
+.section-1-about img:hover {
+    opacity: 100%;
+}
+
+.section-1-about h4 {
+    color: black;
+    margin: 5px;
+    padding-bottom: 15px;
+
+}
+
+.section-1-about p {
+    font-size: 20px;
+}
+
