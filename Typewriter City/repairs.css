@@ -1,0 +1,44 @@
+
+
+div.section1 {
+    background-image: url("/images/typebluesharp.png");
+    opacity: 80%;
+}
+
+div.section1:hover {
+    transition-delay: 1000ms;
+    transition: ease-in-out 200ms;
+    opacity: 100%;
+}
+
+div.section1 h2 {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 50vh;
+    color: white;
+}
+
+div.section-2-repairs {
+    background-color: aliceblue;
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+div.section-2-repairs-left, div.section-2-repairs-center, div.section-2-repairs-right {
+    white-space: wrap;
+    text-align: center;
+    width: 33vw;
+}
+
+div.section-2-repairs-left img, div.section-2-repairs-center img, div.section-2-repairs-right img{
+    margin-top: 25vh;
+    height: 175px;
+    width: 175px;
+    border-radius: 100px;
+}
+
+div.section-2-repairs-left p, div.section-2-repairs-center p, div.section-2-repairs-right p {
+    justify-content: center;
+    margin: 50px;
+}
